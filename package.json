@@ -1,0 +1,24 @@
+{
+	"name": "express",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "tsx src/index.ts",
+		"dev": "tsx watch src/index.ts",
+		"build": "rm -rf ./dist && tsc",
+		"start:dist": "node dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^4.21.1"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.0",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.2"
+	}
+}
